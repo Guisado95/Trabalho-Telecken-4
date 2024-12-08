@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Primary Meta Tags -->
+    <title>Imprensa Popular</title>
+    <meta name="title" content="Imprensa Popular" />
+    <meta name="description" content="Veículo de mídia indepentende. Notícias contra-hegemônicas." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://guisado95.github.io/3-Trabalho-Telecken/" />
+    <meta property="og:title" content="Imprensa Popular" />
+    <meta property="og:description" content="Veículo de mídia indepentende. Notícias contra-hegemônicas." />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://guisado95.github.io/3-Trabalho-Telecken/" />
+    <meta property="twitter:title" content="Imprensa Popular" />
+    <meta property="twitter:description" content="Veículo de mídia indepentende. Notícias contra-hegemônicas." />
+    <meta name="keywords" content="Mídia Independente, jornalismo independete, jornalismo crítico">
+    <meta name="author" content="Imprensa Popular">
+    <meta property="og:title" content="Imprensa Popular">
+    <meta property="og:description" content="Seu veículo de imprensa independente">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Imprensa Popular">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <LINK rel=STYLESHEET href="css/estilo.css">
+</head>
+
+<body>
+
+    <header class="header fixed-top">
+        <h1><a href="#">Imprensa Popular</a></h1>
+        <p>Pra sair de cima do muro</p>   
+    </header>
+
+    <nav class= "fixed-top bg-light p-2" style="top: 76px;">
+       <ul class="menu list-unstyled m-0">
+            <li><a href="#">ECONOMIA-POLÍTICA</a></li>
+            <li><a href="#">ESPORTES</a></li>
+            <li><a href="#">CULTURA</a></li>
+       </ul>
+    </nav>
+
+    <h1> Notícias </h1>
+
+    <main>
+        <section class="noticia">
+            <img src="imagens/queimadas.webp" alt="queimadas">
+            <p>Reprodução: Pedro Ventura/Agencia Brasilia</p>
+            <h1> AS QUEIMADAS TEM O DNA DO AGRONEGÓCIO</h1>
+            <p>O agronegócio é o principal responsável pelos incêndios no Brasil. Diretamente, com a concetração de focos de incêndios nas áreas de expansão agropecuária e nas pastagens. E, indiretamente, como setor que mais contribui para as mudanças climáticas no país. No entanto, ações do governo Lula-Alckmin, como o "bolsa-incêndio", beneficiam o setor, enquanto o Decreto 12.189/24, que aumenta as sanções para quem provocar incêndios, carece de aplicabilidade [...]</p>
+            <p><a href="#">Leia a matéria completa!</a></p>
+        </section>
+
+        <section class="noticia">
+            <img src="imagens/bets.webp" alt="bets">
+            <p>Reprodução/Foto: Joédson Alves/Agência Brasil.</p>
+            <h1> BETS CAUSAM ENDIVIDAMENTO NAS PERIFERIAS E LUCROS BILIONÁRIOS NA EUROPA</h1>
+            <p>Uma pesquisa do Datafolha mostrou que 15% dos brasileiros já realizaram alguma aposta online. Entre os jovens, o percentual chega a 30%. O perfil do apostador brasileiro é de homens jovens, principalmente de menor renda. O Itaú realizou uma análise para investidores projetando um gasto líquido de R$ 23,9 bilhões em valores apostados no Brasil entre 2023 e 2024. Ao considerar o gasto líquido, já está sendo descontado o quanto esses apostadores recebem de volta. trata-se , portanto, do prejuízo dos apostadores. Essa soma representa 0,2% do PIB brasileiro e mais do que o dobro do investimento na atenção básica em 2023. [...]</p>
+            <p><a href="#">Leia a matéria completa!</a></p>
+        </section>
+
+        <h1>GALERIA</h1>
+
+        <section class="galeria">
+            <div>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#modalImagem" onclick="abrirModal('imagens/galeria1.webp', 'Governo Federal não combate queimadas do agronegócio, é o que indica a expansão das queimadas, ao mesmo tempo que plano safra atinge mais de R$ 400 bilhões de reais.')">
+                <img src="imagens/galeria1.webp" alt="galeria1">
+                <p>Governo Federal não combate queimadas do agronegócio</p>
+              </a>
+            </div>
+            <div>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#modalImagem" onclick="abrirModal('imagens/galeria2.webp', 'Retiradade imposto sobre grandes fortunas prenuncia regressividade da reforma tributária')">
+                <img src="imagens/galeria2.webp" alt="galeria2">
+                <p>Retiradade imposto sobre grandes fortunas prenuncia regressividade da reforma tributária</p>
+              </a>
+            </div>
+            <div>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#modalImagem" onclick="abrirModal('imagens/galeria3.webp', 'Decisão do STF, na prática, acaba com estabilidade no serviço público, abrindo margem para que a influência de políticos faça-se sentir no serviço público')">
+                <img src="imagens/galeria3.webp" alt="galeria3">
+                <p>Decisão do STF, na prática, acaba com estabilidade no serviço público</p>
+              </a>
+            </div>
+            <div>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#modalImagem" onclick="abrirModal('imagens/galeria4.webp', 'Gravataí Shopping Center expande seus lucros às custas de jornadas de trabalho abusivas e salários baixos')">
+                <img src="imagens/galeria4.webp" alt="galeria4">
+                <p>Gravataí Shopping Center expande seus lucros às custas de jornadas de trabalho abusivas e salários baixos</p>
+              </a>
+            </div>
+            <div>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#modalImagem" onclick="abrirModal('imagens/galeria5.webp', 'EBC corta salário de jornalistas que participaram das greves')">
+                <img src="imagens/galeria5.webp" alt="galeria5">
+                <p>EBC corta salário de jornalistas que participaram das greves</p>
+              </a>
+            </div>
+            <div>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#modalImagem" onclick="abrirModal('imagens/galeria6.webp', 'Ataque ao STF por ex-candidato do PL acende alerta para possíveis imitadores')">
+                <img src="imagens/galeria6.webp" alt="galeria6">
+                <p>Ataque ao STF por ex-candidato do PL acende alerta para possíveis imitadores</p>
+              </a>
+            </div>
+          </section>
+
+
+
+          <div class="container mt-5">
+            <h2>Notícias mais lidas!</h2>
+            <table class="table table-striped table-bordered table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Título</th>
+                        <th scope="col">Acessos</th>
+                        <th scope="col">Data</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td> AS QUEIMADAS TEM O DNA DO AGRONEGÓCIO</td>
+                        <td>7590</td>
+                        <td>19/08/2024</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td> BETS CAUSAM ENDIVIDAMENTO NAS PERIFERIAS E LUCROS BILIONÁRIOS NA EUROPA</td>
+                        <td>6896</td>
+                        <td>23/10/2024</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Ataque ao STF por ex-candidato do PL acende alerta para possíveis imitadores</td>
+                        <td>6283</td>
+                        <td>21/10/2024</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Gravataí Shopping Center expande seus lucros às custas de jornadas de trabalho abusivas e salários baixos</td>
+                        <td>5230</td>
+                        <td>11/11/2024</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4" class="text-center"></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <div class="container mt-5">
+            <h2>DESTAQUES</h2>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imagens/queimadas.webp" class="d-block w-100" alt="Imagem 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/bets.webp" class="d-block w-100" alt="Imagem 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/galeria1.webp" class="d-block w-100" alt="Imagem 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        
+
+        <h1>FORMULÁRIO DE INSCRIÇÃO</h1>
+
+        <section class="secaoFormulario">
+
+            <div class="divFormulario">
+                
+                <form action="#" method="post">
+
+                    <fieldset>
+                        <legend> Contribua com o jornalismo independente </legend>
+                        
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+
+                        <label for="sobrenome">Sobrenome:</label>
+                        <input type="text" id="sobrenome" name="sobrenome" required>
+                        
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone" pattern="[0-9]{10,11}" required>
+
+                        <label for="data_nascimento">Data de Nascimento:</label>
+                        <input type="date" id="data_nascimento" name="data_nascimento" required>
+
+                        <label>Gênero:</label>
+                        <div class="genero">
+                            <input type="radio" id="homem" name="genero" value="homem">
+                            <label for="homem">Homem</label>
+                        </div>
+
+                        <div class="genero">
+                            <input  type="radio" id="mulher" name="genero" value="mulher">
+                            <label for="mulher">Mulher</label>
+                        </div>
+
+                        <div class="genero">
+                            <input type="radio" id="outro" name="genero" value="outro">
+                            <label for="outro">Outro</label>
+                        </div>
+                        
+                        <div>
+                            <label for="regiao">Qual a região do país que você vive:</label>
+                            <select id="regiao" name="regiao" required>
+                                <option value="" disabled selected>Selecione uma opção</option>
+                                <option value="norte">Norte</option>
+                                <option value="nordeste">Nordeste</option>
+                                <option value="centro_oeste">Centro-Oeste</option>
+                                <option value="sudeste">Sudeste</option>
+                                <option value="sul">Sul</option>
+                                <option value="estrangeiro">Não moro no país</option>
+                            </select>
+                        </div>
+
+                        <button type="submit">Enviar</button>
+
+                    </fieldset>
+
+                </form>
+
+            </div>
+
+            <div class="imagemFormulario">
+                <img src="imagens/formulario.webp" alt="ImagemFormulario">
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p> Imprensa Popular @ 2024 </p>
+    </footer>
+
+    <div class="modal fade" id="modalImagem" tabindex="-1" aria-labelledby="modalImagemLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalImagemLabel"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img id="modalImagemSrc" src="imagens/" class="img-fluid" alt="Imagem Ampliada">
+              <p id="modalDescricao" class="mt-3"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        function abrirModal(imagem, descricao) {
+          // Atualizando a imagem do modal
+          document.getElementById('modalImagemSrc').src = imagem;
+          // Atualizando a descrição do modal
+          document.getElementById('modalDescricao').innerText = descricao;
+        }
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
